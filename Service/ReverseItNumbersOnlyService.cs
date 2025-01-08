@@ -9,20 +9,25 @@ namespace MiniChallengeFiveToSeven___Endpoints.Service
             reverseItNumbersOnly = "Nothing to display!";
         }
 
-        public void AddReverseItNumbersOnly(string input1)
+public void AddReverseItNumbersOnly(string input1)
+{
+    int convertNumber2;
+    bool isValied2 = int.TryParse(input1, out convertNumber2);
+    if (isValied2)
+    {
+        char[] inputArray2 = input1.ToCharArray();
+        char[] reversedArray = new char[inputArray2.Length];
+        for (int i = 0; i < inputArray2.Length; i++)
         {
-            int convertNumber2;
-            bool isValied2 = int.TryParse(input1, out convertNumber2);
-            if (isValied2)
-            {
-                char[] inputArray2 = input1.ToCharArray();
-                Array.Reverse(inputArray2);
-                reverseItNumbersOnly = "You entered " + input1 + " reversed is " + new string(inputArray2);
-            }
-            else
-            {
-                reverseItNumbersOnly = "Please enter a valid number.";
-            }
+            reversedArray[i] = inputArray2[inputArray2.Length - 1 - i];
         }
+        reverseItNumbersOnly = "You entered " + input1 + " reversed is " + new string(reversedArray);
+    }
+    else
+    {
+        reverseItNumbersOnly = "Please enter a valid number.";
+    }
+}
+
     }
 }
