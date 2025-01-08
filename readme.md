@@ -1,4 +1,3 @@
-
 # MiniChallengeFiveToSeven - Endpoints
 
 ## Overview
