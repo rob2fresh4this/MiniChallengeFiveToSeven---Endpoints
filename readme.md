@@ -55,4 +55,5 @@ Overall great job!
 MadLib - works fine, not sure how much inputs they want but if this much is fine it is good.
 OddOrEven - everything works, has validation, no changes needed, great job
 ReverseItAlphanumerical - great job, using reverse method is probably easier way to do it
-ReverseItNumbers - was pretty much the same as ReverseItAlphNumerical. just caution: I think they wanted us to use the mathematical way to do it with modulo so I recommend asking just in case so you don't get docked points. 
+ReverseItNumbers - was pretty much the same as ReverseItAlphNumerical. 
+- [done] just caution: I think they wanted us to use the mathematical way to do it with modulo so I recommend asking just in case so you don't get docked points. 
