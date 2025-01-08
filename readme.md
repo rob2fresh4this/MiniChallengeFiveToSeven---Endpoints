@@ -1,4 +1,3 @@
-# VScode was saying something about to many files to upload so i seleted the main files
 # MiniChallengeFiveToSeven - Endpoints
 
 ## Overview
